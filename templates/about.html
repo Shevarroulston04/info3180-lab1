@@ -3,9 +3,11 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>Shevar Roulston</h1>
+ <img src="{{ url_for('static', filename='images/tech.jpg') }}" alt="Technology Image">
  <p>I am a dedicated Computer Science student at the University of the West Indies who is hardworking, creative, and driven to succeed. 
     I enjoy solving problems, exploring new hobbies, and continuously developing skills such as critical thinking. 
     My curiosity pushes me to keep learning, expand my knowledge, and stay up to date with advancements in the technology field. 

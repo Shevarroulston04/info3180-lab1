@@ -1,10 +1,48 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: #f4f6f8;
+  color: #2c3e50;
+  margin: 0;
+  padding: 40px 20px;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Name heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #121213;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.1rem;
+  color: #0a0a0a;
+  margin-top: 20px;
+}
+
+/* Image styling */
+img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  display: block;
+  margin-bottom: 25px;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
